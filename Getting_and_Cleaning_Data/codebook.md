@@ -26,4 +26,4 @@ download.file(downloadUrl, destfile="./data/UCI_HAR.zip")
 zipFile <- "UCI_HAR.zip"
 unzip(zipFile)
 ```
-![Downloading Zipfile in RStudio](https://github.com/coolnumber9/datasciencecoursera/tree/master/images/Week4-downloadZipFile.png)
+![Downloading Zipfile in RStudio](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/Week4-downloadZipFile.png)
