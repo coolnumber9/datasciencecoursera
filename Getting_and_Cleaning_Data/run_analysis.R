@@ -105,12 +105,15 @@ names(selected_df) <-gsub("GravityAcc", "GravityAcceleration", names(selected_df
 # Clean the Open and Close Parenthesis
 names(selected_df) <-gsub("\\(\\)", "", names(selected_df))
 
-tidy_data1 <- selected_df
-# Review the changes...
-View(tidy_data1)
+mean_and_std_dvn_clean <- selected_df
+# View the changes...
+View(mean_and_std_dvn_clean)
 
 #Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidy_data2 <- aggregate(.~SubjectNum - ActivityType, tidy_data1, mean)
+mean_and_std_dvn_clean_avg <- aggregate(.~SubjectNum - ActivityType, mean_and_std_dvn_clean, mean)
 
-# View the Head...
-View(tidy_data2)
+# View in RStudio...
+View(mean_and_std_dvn_clean_avg)
+
+# Write to CSV file
+write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.csv")
