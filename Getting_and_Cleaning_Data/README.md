@@ -8,16 +8,17 @@ This repository contains all the files needed as part of the requirements of Wee
 ### Background
 One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/) . Companies like **Fitbit**, **Nike**, and **Jawbone Up** are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
-[Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+ * [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 Here are the data for the project:
 
-[UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+ * [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-(Emphasis and some rephrasing of text is mine. The rest of the text is copied from the Assignment instruction.)
+Note: Emphasis and some rephrasing of text is mine. The rest of the text is copied from the Assignment instruction.
+
 ---
 
-The main objectives of this peer-graded assignment is to create an R script that does the following:
+The main objectives of this peer-graded assignment is to create an **R script** that does the following:
 1. Download the Human Activity Recognition data from the source.
 2. Merge Training and Test dataset into one dataset.
 3. Extract only the measurements on the mean and standard deviation for each measurement.
