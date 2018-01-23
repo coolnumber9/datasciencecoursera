@@ -116,4 +116,5 @@ mean_and_std_dvn_clean_avg <- aggregate(.~SubjectNum - ActivityType, mean_and_st
 View(mean_and_std_dvn_clean_avg)
 
 # Write to CSV file
-write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.csv")
+write.table(mean_and_std_dvn_clean_avg, file = "UCI_HAR_mean_and_std_dvn_clean_avg.csv", row.names=FALSE)
+#write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.csv")
