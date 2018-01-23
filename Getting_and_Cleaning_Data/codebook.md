@@ -1,6 +1,6 @@
 # CodeBook
 ## Introduction
-Steps enumerated below with explanation. Screenshot in RStudio is provided as well.
+Steps are enumerated below with explanations. Screenshots in RStudio are provided as well.
 
 ### Environment Initialization
 Clean workspace environment first.
