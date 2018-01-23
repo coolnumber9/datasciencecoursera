@@ -10,7 +10,7 @@ rm(list=ls())
 
 Explictly set the working directory to a preferred directory. Structure below is just a personal preference.
 ```R
-refDir <- "D:\\Documents\\_data-science-track\\_Module3-DataScienceToolbox\\Week4\\peer-graded-assignment"
+prefDir <- "D:\\Documents\\_data-science-track\\_Module3-DataScienceToolbox\\Week4\\peer-graded-assignment"
 setwd(prefDir)
 
 if(!file.exists("./downloads")) {
@@ -44,6 +44,7 @@ subject_test_table <- "UCI HAR Dataset/test/subject_test.txt"
 
 ### Load the Datasets in R or RStudio, then merge both Train and Test Data
 **X = Measurement Variables**
+
 Load and merge the data from different source text files.
 ```R
 x_train <- read.table(x_train_table)
@@ -61,6 +62,7 @@ colnames(combined_xtrain_and_xtest) <- as.character(var_names$V2)
 
 
 **Y = Different types of Activities**
+
 Load and merge the data from different source text files.
 ```R
 y_train <- read.table(y_train_table)
@@ -76,6 +78,7 @@ colnames(combined_ytrain_and_ytest) <- "ActivityType"
 
 **Make the ActivityType more understandable.**
 Based on the Activity Labels provided:
+
 ActivityID | ActivityType
 ------------ | -------------
 1 | WALKING
@@ -112,6 +115,7 @@ summary(as.factor(combined_ytrain_and_ytest[,1]))
 ![Summary Counts](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/summaryCounts.png)
 
 **Subjects / Participants**
+
 Load and merge the data from different source text files.
 ```R
 subject_train <- read.table(subject_train_table)
