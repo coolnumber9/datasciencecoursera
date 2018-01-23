@@ -5,6 +5,7 @@ downloads/
 downloads/*.*
 UCI HAR Dataset/
 UCI HAR Dataset/*.*
+*.txt
 # -------------- kamora -------------------------
 
 # Below Created by https://www.gitignore.io/api/r

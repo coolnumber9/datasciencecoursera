@@ -152,6 +152,7 @@ mean_and_std_dvn_clean <- selected_df
 ```R
 View(mean_and_std_dvn_clean)
 ```
+![mean_and_std_dvn_clean](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/mean_and_std_dvn_clean.png)
 
 **Create a second, independent tidy data set with the average of each variable for each activity and each subject.**
 ```R
@@ -162,6 +163,7 @@ mean_and_std_dvn_clean_avg <- aggregate(.~SubjectNum - ActivityType, mean_and_st
 ```R
 View(mean_and_std_dvn_clean_avg)
 ```
+![mean_and_std_dvn_clean_avg](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/mean_and_std_dvn_clean_avg.png)
 
 **Write to a CSV file.**
 ```R
