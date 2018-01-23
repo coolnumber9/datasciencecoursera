@@ -14,7 +14,7 @@ Here are the data for the project:
 
  * [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-Note: Emphasis and some rephrasing of text is mine. The rest of the text is copied from the Assignment instruction.
+Note: Emphasis and rephrasing of a couple of texts are mine. The rest is copied from the Assignment instruction.
 
 ---
 
