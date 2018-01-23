@@ -3,10 +3,10 @@
 
 ![Week 4 Timeline](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/week4.png)
 
-This repository contains all the files needed as part of the requirements of Week 4 of **Getting and Cleaning Data Course in Coursera.**
+This repository contains all the files needed for the peer-graded assignment requirements of **Getting and Cleaning Data Course (Week 4).**
 
 ### Background
-One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/) . Companies like **Fitbit**, **Nike**, and **Jawbone Up** are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/) . Companies like **Fitbit**, **Nike**, and **Jawbone Up** are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the **accelerometers** from the **Samsung Galaxy S smartphone**. A full description is available at the site where the data was obtained: 
 
  * [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
@@ -14,7 +14,7 @@ Here are the data for the project:
 
  * [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-Note: Emphasis and rephrasing of a couple of texts are mine. The rest is copied from the Assignment instruction.
+Note: Emphasis and rephrasing of a couple of texts are mine. The rest are copied from the assignment instruction.
 
 ---
 
