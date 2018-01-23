@@ -1,6 +1,6 @@
 # CodeBook
 ## Introduction
-Steps enumerated below with explanation. Screenshot from RStudio is provided as well.
+Steps enumerated below with explanation. Screenshot in RStudio is provided as well.
 
 ### Environment Initialization
 Clean workspace environment first.
@@ -148,7 +148,7 @@ names(selected_df) <-gsub("\\(\\)", "", names(selected_df))
 mean_and_std_dvn_clean <- selected_df
 ```
 
-View the changes in RStudio
+**View the changes in RStudio**
 ```R
 View(mean_and_std_dvn_clean)
 ```
@@ -158,12 +158,14 @@ View(mean_and_std_dvn_clean)
 mean_and_std_dvn_clean_avg <- aggregate(.~SubjectNum - ActivityType, mean_and_std_dvn_clean, mean)
 ```
 
-View in RStudio...
+**View in RStudio...**
 ```R
 View(mean_and_std_dvn_clean_avg)
 ```
 
-Write to a CSV file.
+**Write to a CSV file.**
 ```R
-# write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.csv")
+write.table(mean_and_std_dvn_clean_avg, file = "UCI_HAR_mean_and_std_dvn_clean_avg.csv", row.names=FALSE)
+#write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.txt")
+
 ```
