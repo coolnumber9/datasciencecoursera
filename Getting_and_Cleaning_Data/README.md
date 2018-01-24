@@ -18,6 +18,7 @@ Note: Emphasis and rephrasing of a couple of texts are mine. The rest are copied
 
 ---
 
+## Objectives
 The main objectives of this peer-graded assignment is to create an **R script** that does the following:
 1. Download the Human Activity Recognition data from the source.
 2. Merge Training and Test dataset into one dataset.
@@ -29,10 +30,12 @@ The main objectives of this peer-graded assignment is to create an **R script** 
 
 ## Files
 Here are the files in this repo.
-1. **Readme** - This file
+1. **Readme** - This file.
 2. **images** directory - Just a repository for the images embedded in the readme and codebook markdown text.
-3. **.gitignore** - use to ignore files that are not needed to be commited in git and github.
-4. **codebook.md** - shows the data being provided, the variables and observations, and the steps to reproduce the output that is being required by this course's final assignment.
+3. **.gitignore** - Use to ignore files that are not needed to be commited in git and github.
+4. **codebook.md** - Shows the data being provided, the variables and observations, and the steps to reproduce the output that is being required by this course's final assignment.
 5. **run_analysis.R** - The R script to produce the output required for this course's final assignment.
+
+---
 
 **Please refer to the CodeBook for the steps in reproducing the data output needed.**
