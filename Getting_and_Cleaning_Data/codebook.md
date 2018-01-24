@@ -2,6 +2,21 @@
 ## Introduction
 Steps are enumerated below with explanations. Screenshots in RStudio are provided as well.
 
+## Given Files / Data
+These are the significant files provided:
+ 1. **activity_labels.txt**
+     * Contains the Activity Code/ID and its equivalent readable Activity Type.
+ 2. **features.txt**
+     * All of the measurements are enumerated in this table.
+ 3. **subject_train.txt** and **subject_test.txt**
+     * Subject / Participant IDs are saved here. For both Train and Test dataset.
+ 4. X_train.txt and X_test.txt
+     * All of the measurement values are saved in this file.
+ 5. Y_train.txt and Y_test.txt
+     * All of Activity Code/IDs that are associated to the corresponding measurements in the previous item.
+
+---
+## Steps to reproduce the output
 ### Environment Initialization
 Clean workspace environment first.
 ```R
