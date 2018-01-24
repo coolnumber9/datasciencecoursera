@@ -267,7 +267,5 @@ View(mean_and_std_dvn_clean_avg)
 
 **Write to a CSV file.**
 ```R
-write.table(mean_and_std_dvn_clean_avg, file = "UCI_HAR_mean_and_std_dvn_clean_avg.csv", row.names=FALSE)
-#write.csv(mean_and_std_dvn_clean_avg, "UCI_HAR_mean_and_std_dvn_clean_avg.txt")
-
+write.table(mean_and_std_dvn_clean_avg, file = "UCI_HAR_mean_and_std_dvn_clean_avg.txt", row.names=FALSE)
 ```
