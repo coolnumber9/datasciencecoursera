@@ -26,7 +26,9 @@ For each record, the following data are provided.
  * Subject Num/ID - An identifier of the subject who carried out the experiment.
 
 ## Tidy Output
-The expected tidy output required for the assignment contains the following (standard deviation and mean variables only).
+The expected tidy output required for the assignment contains the following (standard deviation and mean variables only) columns and the values.
+ * SubjectNum
+ * ActivityType
  * TimeBodyAcceleration-mean-X 
  * TimeBodyAcceleration-mean-Y 
  * TimeBodyAcceleration-mean-Z 
