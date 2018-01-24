@@ -5,15 +5,94 @@ Steps are enumerated below with explanations. Screenshots in RStudio are provide
 ## Given Files / Data
 These are the significant files provided:
  1. **activity_labels.txt**
-     * Contains the Activity Code/ID and its equivalent readable Activity Type.
+     * Contains the Activity Codes/IDs and its equivalent readable Activity Type.
  2. **features.txt**
-     * All of the measurements are enumerated in this table.
+     * List of all Features.
  3. **subject_train.txt** and **subject_test.txt**
      * Subject / Participant IDs are saved here. For both Train and Test dataset.
  4. **X_train.txt** and **X_test.txt**
+     * Training and Test Set.
      * All of the measurement values are saved in this file.
  5. **Y_train.txt** and **Y_test.txt**
-     * All of Activity Code/IDs that are associated to the corresponding measurements in the previous item.
+     * Training and Test Labels.
+     * All of Activity Codes/IDs that are associated to the corresponding measurements in the previous item.
+
+## Observations
+For each record, the following data are provided.
+ * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+ * Triaxial Angular velocity from the gyroscope. 
+ * A 561-feature vector with time and frequency domain variables.
+ * Activity Type - Its activity label.
+ * Subject Num/ID - An identifier of the subject who carried out the experiment.
+
+## Tidy Output
+The expected tidy output required for the assignment contains the following (standard deviation and mean variables only).
+	* TimeBodyAcceleration-mean-X 
+	* TimeBodyAcceleration-mean-Y 
+	* TimeBodyAcceleration-mean-Z 
+	* TimeBodyAcceleration-std-X 
+	* TimeBodyAcceleration-std-Y 
+	* TimeBodyAcceleration-std-Z 
+	* TimeGravityAcceleration-mean-X 
+	* TimeGravityAcceleration-mean-Y 
+	* TimeGravityAcceleration-mean-Z 
+	* TimeGravityAcceleration-std-X 
+	* TimeGravityAcceleration-std-Y 
+	* TimeGravityAcceleration-std-Z 
+	* TimeBodyAccelerationJerk-mean-X 
+	* TimeBodyAccelerationJerk-mean-Y 
+	* TimeBodyAccelerationJerk-mean-Z 
+	* TimeBodyAccelerationJerk-std-X 
+	* TimeBodyAccelerationJerk-std-Y 
+	* TimeBodyAccelerationJerk-std-Z 
+	* TimeBodyGyroscope-mean-X 
+	* TimeBodyGyroscope-mean-Y 
+	* TimeBodyGyroscope-mean-Z 
+	* TimeBodyGyroscope-std-X 
+	* TimeBodyGyroscope-std-Y 
+	* TimeBodyGyroscope-std-Z 
+	* TimeBodyGyroscopeJerk-mean-X 
+	* TimeBodyGyroscopeJerk-mean-Y 
+	* TimeBodyGyroscopeJerk-mean-Z 
+	* TimeBodyGyroscopeJerk-std-X 
+	* TimeBodyGyroscopeJerk-std-Y 
+	* TimeBodyGyroscopeJerk-std-Z 
+	* TimeBodyAccelerationMagnitude-mean 
+	* TimeBodyAccelerationMagnitude-std 
+	* TimeGravityAccelerationMagnitude-mean 
+	* TimeGravityAccelerationMagnitude-std 
+	* TimeBodyAccelerationJerkMagnitude-mean 
+	* TimeBodyAccelerationJerkMagnitude-std 
+	* TimeBodyGyroscopeMagnitude-mean 
+	* TimeBodyGyroscopeMagnitude-std 
+	* TimeBodyGyroscopeJerkMagnitude-mean 
+	* TimeBodyGyroscopeJerkMagnitude-std 
+	* FrequencyBodyAcceleration-mean-X 
+	* FrequencyBodyAcceleration-mean-Y 
+	* FrequencyBodyAcceleration-mean-Z 
+	* FrequencyBodyAcceleration-std-X 
+	* FrequencyBodyAcceleration-std-Y 
+	* FrequencyBodyAcceleration-std-Z 
+	* FrequencyBodyAccelerationJerk-mean-X 
+	* FrequencyBodyAccelerationJerk-mean-Y 
+	* FrequencyBodyAccelerationJerk-mean-Z 
+	* FrequencyBodyAccelerationJerk-std-X 
+	* FrequencyBodyAccelerationJerk-std-Y 
+	* FrequencyBodyAccelerationJerk-std-Z 
+	* FrequencyBodyGyroscope-mean-X 
+	* FrequencyBodyGyroscope-mean-Y 
+	* FrequencyBodyGyroscope-mean-Z 
+	* FrequencyBodyGyroscope-std-X 
+	* FrequencyBodyGyroscope-std-Y 
+	* FrequencyBodyGyroscope-std-Z 
+	* FrequencyBodyAccelerationMagnitude-mean 
+	* FrequencyBodyAccelerationMagnitude-std 
+	* FrequencyBodyBodyAccelerationJerkMagnitude-mean 
+	* FrequencyBodyBodyAccelerationJerkMagnitude-std 
+	* FrequencyBodyBodyGyroscopeMagnitude-mean 
+	* FrequencyBodyBodyGyroscopeMagnitude-std 
+	* FrequencyBodyBodyGyroscopeJerkMagnitude-mean 
+	* FrequencyBodyBodyGyroscopeJerkMagnitude-std
 
 ---
 ## Steps to reproduce the output from the given data
