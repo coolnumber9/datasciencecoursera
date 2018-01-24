@@ -265,7 +265,7 @@ View(mean_and_std_dvn_clean_avg)
 ```
 ![mean_and_std_dvn_clean_avg](https://github.com/coolnumber9/datasciencecoursera/blob/master/Getting_and_Cleaning_Data/images/mean_and_std_dvn_clean_avg.png)
 
-**Write to a CSV file.**
+**Write to a TXT file.**
 ```R
 write.table(mean_and_std_dvn_clean_avg, file = "UCI_HAR_mean_and_std_dvn_clean_avg.txt", row.names=FALSE)
 ```
