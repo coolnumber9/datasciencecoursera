@@ -17,7 +17,7 @@ if(!file.exists("./downloads")) {
 downloadUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(downloadUrl, destfile="./downloads/UCI_HAR.zip")
 
-downloadedFile <- "./downlads/UCI_HAR.zip"
+downloadedFile <- "./downloads/UCI_HAR.zip"
 
 unzip(downloadedFile)
 
